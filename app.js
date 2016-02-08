@@ -19,7 +19,8 @@ app.use(express.static(__dirname + '/public'));
 
 
 app.get('/', function(req, res){
-  res.send('Disney films');
+  // res.send('Disney films');
+  res.render('index', {title: 'Disney Films'});
 });
 
 app.listen(port, function(){
