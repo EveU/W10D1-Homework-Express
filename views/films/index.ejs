@@ -1,0 +1,19 @@
+<table id="films">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Year</th>
+      <th>Run Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% for(i=0; i<films.length; i++){ %>
+      <tr>
+          <td><a href="/films/<%= i %>"><%= films[i].title %></a></td>
+          <td><%= films[i].year %></td>
+          <td><%= films[i].runTime %></td>
+          <td><a href="/films/<%=i%>/edit">Edit</a></td>
+      </tr>
+    <% } %>
+  </tbody>
+</table>

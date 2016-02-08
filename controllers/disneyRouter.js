@@ -10,4 +10,10 @@ disneyRouter.get('/', function(req, res){
   res.render('films/index', {films: films});
 });
 
+// SHOW
+disneyRouter.get('/:id', function(req, res){
+  res.render('films/show', {film: films[req.params.id], filmId: req.params.id});
+});
+
+
 module.exports = disneyRouter;
