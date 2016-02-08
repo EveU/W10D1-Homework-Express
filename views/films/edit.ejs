@@ -1,0 +1,9 @@
+<form action='/films/<%= filmId %>' method='post'>
+  <label for='title'>Title: </label>
+  <input type='text' name='title' placeholder='<%=film.title%>' autofocus='true'>
+  <label for='year'>Year: </label>
+  <input type='text' name='year' placeholder='<%=film.year%>'>
+  <label for='runTime'>Run Time: </label>
+  <input type='text' name='runTime' placeholder='<%=film.runTime%>'>
+  <input type='submit' value='Edit film!'>
+</form>
