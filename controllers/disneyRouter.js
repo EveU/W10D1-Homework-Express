@@ -45,5 +45,10 @@ disneyRouter.post('/:id', function(req, res){
   res.redirect('/');
 });
 
+// // DELETE
+// disneyRouter.post('/:id', function(req, res){
+//   films.splice[req.params.id, 1];
+//   res.redirect('/films');
+// });
 
 module.exports = disneyRouter;

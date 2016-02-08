@@ -65,13 +65,13 @@ tbody a {
 }
 
 tbody :hover a {
-  color: wheat;
+  color: pink;
 }
 
 tbody tr:nth-child(odd) {
-  background-color: wheat;
+  background-color: pink;
   color: #fff;
-  opacity: .6;
+  opacity: .4;
 }
 
 tbody tr:nth-child(even) {
@@ -80,5 +80,5 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
   background-color: rgb(51, 188, 184);
-  color: wheat;
+  color: pink;
 }
